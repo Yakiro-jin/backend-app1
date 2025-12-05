@@ -29,6 +29,8 @@
 
 ```bash
 $ npm install
+ssh -i ~/.ssh/localhost_run -R 80:localhost:3000 localhost.run
+node dist/main.js
 ```
 
 ## Compile and run the project
